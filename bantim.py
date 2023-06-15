@@ -1,8 +1,6 @@
 import pygame
 import random
 
-
-
 WIDTH = 800
 HEIGHT = 600
 
@@ -26,7 +24,7 @@ class Bird(pygame.sprite.Sprite):
         super().__init__()
         self.image = pygame.Surface([10, 10])
         #self.image.fill(RED)
-        self.image = pygame.image.load("D:\image\dinosaur.png").convert_alpha()
+        self.image = pygame.image.load("D:\image\code\dinosaur.png").convert_alpha()
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
